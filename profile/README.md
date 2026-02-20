@@ -1,31 +1,41 @@
 <div align="center">
   <a href="https://video-reason.com/">
-    <img src="https://video-reason.com/static/images/VBVR_logo.png" height="100" alt="VBVR Logo"/>
+    <img src="https://video-reason.com/static/images/VBVR_logo.png" height="60" alt="VBVR"/>
   </a>
-
-  <h1>VBVR-DataFactory</h1>
-  <h3>150 Open-Source Task Generators for Video Reasoning</h3>
-
-  <p>
-    <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Website-video--reason.com-000000?style=for-the-badge" alt="Website"/></a>
-    <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Paper-VBVR-b31b1b?style=for-the-badge" alt="Paper"/></a>
-    <a href="https://huggingface.co/VideoReason"><img src="https://img.shields.io/badge/HuggingFace-VideoReason-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000" alt="HuggingFace"/></a>
-    <a href="https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ"><img src="https://img.shields.io/badge/Community-Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack"/></a>
-  </p>
+  <br/><br/>
+  <strong>VBVR-DataFactory</strong> &mdash; 150 Open-Source Task Generators for Video Reasoning
+  <br/><br/>
+  <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Website-video--reason.com-000000?style=flat-square" alt="Website"/></a>
+  <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Paper-VBVR-b31b1b?style=flat-square" alt="Paper"/></a>
+  <a href="https://huggingface.co/VideoReason"><img src="https://img.shields.io/badge/HuggingFace-VideoReason-FFD21E?style=flat-square&logo=huggingface&logoColor=000" alt="HuggingFace"/></a>
+  <a href="https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ"><img src="https://img.shields.io/badge/Slack-Community-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack"/></a>
 </div>
 
 ---
 
 This organization hosts the **parameterized data generators** that power [VBVR (Very Big Video Reasoning)](https://video-reason.com/) &mdash; a large-scale dataset and benchmark for studying reasoning in video generation models.
 
-Each repository is a self-contained **task generator**: a deterministic program that produces (first frame, prompt, final frame, ground-truth video) tuples for a specific reasoning task. Together, they produce 2M+ images and 1M+ video clips across 200+ tasks.
+Each repository is a self-contained **task generator**: a deterministic program that produces (first frame, prompt, final frame, ground-truth video) tuples for a specific reasoning task. Together, they produce **2M+ images** and **1M+ video clips** across **200+ tasks**.
+
+### Sample Outputs
 
 <table>
 <tr>
-<td align="center"><h3>150</h3>Open-Source Generators</td>
-<td align="center"><h3>5</h3>Cognitive Categories</td>
-<td align="center"><h3>3</h3>Dataset Splits</td>
-<td align="center"><h3>50+</h3>Contributors</td>
+<td align="center"><b>Perception</b><br/>Sort Objects By Rule<br/><a href="https://github.com/VBVR-DataFactory/G-19_sort_objects_by_rule_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-19_sort_objects_by_rule_data-generator/main/samples/G-19_video_0.gif" width="160"/></a></td>
+<td align="center"><b>Transformation</b><br/>Combined Objects Spinning<br/><a href="https://github.com/VBVR-DataFactory/G-40_combined_objects_spinning_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-40_combined_objects_spinning_data-generator/main/samples/G-40_video_0.gif" width="160"/></a></td>
+<td align="center"><b>Spatiality</b><br/>Grid Shortest Path<br/><a href="https://github.com/VBVR-DataFactory/G-18_grid_shortest_path_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-18_grid_shortest_path_data-generator/main/samples/G-18_video_0.gif" width="160"/></a></td>
+<td align="center"><b>Abstraction</b><br/>Symmetry Random<br/><a href="https://github.com/VBVR-DataFactory/G-37_symmetry_random_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-37_symmetry_random_data-generator/main/samples/G-37_video_0.gif" width="160"/></a></td>
+<td align="center"><b>Knowledge</b><br/>Hit Target After Bounce<br/><a href="https://github.com/VBVR-DataFactory/G-35_hit_target_after_bounce_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-35_hit_target_after_bounce_data-generator/main/samples/G-35_video_0.gif" width="160"/></a></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center"><a href="https://github.com/VBVR-DataFactory/O-39_maze_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-39_maze_data-generator/main/samples/O-39_video_0.gif" width="160"/></a><br/>Maze</td>
+<td align="center"><a href="https://github.com/VBVR-DataFactory/O-19_mirror_reflection_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-19_mirror_reflection_data-generator/main/samples/O-19_video_0.gif" width="160"/></a><br/>Mirror Reflection</td>
+<td align="center"><a href="https://github.com/VBVR-DataFactory/O-56_raven_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-56_raven_data-generator/main/samples/O-56_video_0.gif" width="160"/></a><br/>Raven&rsquo;s Matrices</td>
+<td align="center"><a href="https://github.com/VBVR-DataFactory/O-47_sliding_puzzle_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-47_sliding_puzzle_data-generator/main/samples/O-47_video_0.gif" width="160"/></a><br/>Sliding Puzzle</td>
+<td align="center"><a href="https://github.com/VBVR-DataFactory/O-53_clock_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-53_clock_data-generator/main/samples/O-53_video_0.gif" width="160"/></a><br/>Clock</td>
 </tr>
 </table>
 
@@ -33,12 +43,16 @@ Each repository is a self-contained **task generator**: a deterministic program 
 
 ## Organization Structure
 
+| | | |
+|:--:|:--:|:--:|
+| **150** open-source generators | **5** cognitive categories | **50+** contributors |
+
 | Type | Count | Description |
 |:--|:--:|:--|
 | **Templates** | 2 | Starter repos for building new generators and pipelines |
-| **Training Set Generators** | 50 | Tasks used for model training |
-| **In-Domain Test Generators** | 50 | Tasks for in-distribution evaluation |
-| **Out-of-Domain Test Generators** | 50 | Tasks for out-of-distribution generalization testing |
+| **Training Set** | 50 | Generators for model training |
+| **In-Domain Test** | 50 | Generators for in-distribution evaluation |
+| **Out-of-Domain Test** | 50 | Generators for out-of-distribution generalization testing |
 
 All generators follow a standard interface:
 
