@@ -1,31 +1,26 @@
-<div align="center">
-  <a href="https://video-reason.com/">
-    <img src="logo.png" height="100" alt="VBVR"/>
-  </a>
-  <br/>
-  <h3>VBVR-DataFactory</h3>
-  <p><em>Open-Source Synthetic Data Generators for Video Reasoning</em></p>
-  <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Website-video--reason.com-000000?style=for-the-badge" alt="Website"/></a>
-  &nbsp;
-  <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Paper-VBVR-b31b1b?style=for-the-badge" alt="Paper"/></a>
-  &nbsp;
-  <a href="https://huggingface.co/Video-Reason"><img src="https://img.shields.io/badge/HuggingFace-Video--Reason-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000" alt="HuggingFace"/></a>
-  &nbsp;
-  <a href="https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ"><img src="https://img.shields.io/badge/Slack-Join_Us-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack"/></a>
-</div>
+<table>
+<tr>
+<td width="120" valign="top">
+<a href="https://video-reason.com/">
+<img src="logo.png" width="100" alt="VBVR"/>
+</a>
+</td>
+<td valign="top">
+<h2>VBVR-DataFactory</h2>
+<p><b>Open-Source Synthetic Data Generators for Video Reasoning</b></p>
+<p>
+<a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Website-video--reason.com-000000?style=flat-square" alt="Website"/></a>
+<a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Paper-VBVR-b31b1b?style=flat-square" alt="Paper"/></a>
+<a href="https://huggingface.co/Video-Reason"><img src="https://img.shields.io/badge/HuggingFace-Video--Reason-FFD21E?style=flat-square&logo=huggingface&logoColor=000" alt="HuggingFace"/></a>
+<a href="https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ"><img src="https://img.shields.io/badge/Slack-Join_Us-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack"/></a>
+</p>
+</td>
+</tr>
+</table>
 
-<br/>
+This organization is a **synthetic data pump** for video reasoning. It hosts the parameterized generators behind [**VBVR** (Very Big Video Reasoning)](https://video-reason.com/) &mdash; each one capable of producing **unlimited** training data on demand.
 
-<div align="center">
-
-This organization is a **synthetic data pump** for video reasoning.
-It hosts the parameterized generators behind [**VBVR** (Very Big Video Reasoning)](https://video-reason.com/) &mdash; each one capable of producing **unlimited** training data on demand.
-
-*Every repository is a self-contained task generator: give it a seed and parameters, and it deterministically produces (first frame, prompt, final frame, ground-truth video) tuples. There is no fixed dataset size &mdash; every generator can mint fresh, unique samples indefinitely.*
-
-**Need 10K examples? 10M? Just run the generator longer.**
-
-</div>
+Every repository is a self-contained **task generator**: give it a seed and parameters, and it deterministically produces (first frame, prompt, final frame, ground-truth video) tuples. There is no fixed dataset size &mdash; every generator can mint fresh, unique samples indefinitely. **Need 10K examples? 10M? Just run the generator longer.**
 
 ---
 
