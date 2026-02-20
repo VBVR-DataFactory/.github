@@ -1,64 +1,83 @@
 <div align="center">
-  <a href="https://video-reason.com/">
-    <img src="https://video-reason.com/static/images/VBVR_logo.png" height="100" alt="VBVR"/>
-  </a>
-  <br/>
-  <h3>VBVR-DataFactory</h3>
-  <p><em>Open-Source Synthetic Data Generators for Video Reasoning</em></p>
-  <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Website-video--reason.com-000000?style=for-the-badge" alt="Website"/></a>
-  &nbsp;
-  <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Paper-VBVR-b31b1b?style=for-the-badge" alt="Paper"/></a>
-  &nbsp;
-  <a href="https://huggingface.co/Video-Reason"><img src="https://img.shields.io/badge/HuggingFace-Video--Reason-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000" alt="HuggingFace"/></a>
-  &nbsp;
-  <a href="https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ"><img src="https://img.shields.io/badge/Slack-Join_Us-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack"/></a>
+
+<br/>
+
+<a href="https://video-reason.com/">
+  <img src="https://video-reason.com/static/images/VBVR_logo.png" height="120" alt="VBVR"/>
+</a>
+
+<br/><br/>
+
+# VBVR-DataFactory
+
+### Open-Source Synthetic Data Generators for Video Reasoning
+
+<br/>
+
+<a href="https://video-reason.com/">
+  <img src="https://img.shields.io/badge/Website-video--reason.com-000000?style=flat-square" alt="Website"/>
+</a>
+&ensp;
+<a href="https://video-reason.com/">
+  <img src="https://img.shields.io/badge/Paper-VBVR-b31b1b?style=flat-square" alt="Paper"/>
+</a>
+&ensp;
+<a href="https://huggingface.co/Video-Reason">
+  <img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Video--Reason-FFD21E?style=flat-square" alt="HuggingFace"/>
+</a>
+&ensp;
+<a href="https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ">
+  <img src="https://img.shields.io/badge/Slack-Join%20Us-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack"/>
+</a>
+
+<br/><br/>
+
 </div>
 
-
-This organization is a **synthetic data pump** for video reasoning.
+This organization is a **synthetic data spring** for video reasoning.
 It hosts the parameterized generators behind [**VBVR** (Very Big Video Reasoning)](https://video-reason.com/) &mdash; each one capable of producing **unlimited** training data on demand.
 
-*Every repository is a self-contained task generator: give it a seed and parameters, and it deterministically produces (first frame, prompt, final frame, ground-truth video) tuples. There is no fixed dataset size &mdash; every generator can mint fresh, unique samples indefinitely.*
+> *Every repository is a self-contained task generator: give it a seed and parameters, and it deterministically produces (first frame, prompt, final frame, ground-truth video) tuples. There is no fixed dataset size &mdash; every generator can mint fresh, unique samples indefinitely.*
 
 **Need 10K examples? 10M? Just run the generator longer.**
 
----
+<br/>
 
-### Sample Generations
+## Sample Generations
 
 <table>
 <tr>
-<td align="center"><b>Perception</b><br/>Sort Objects By Rule<br/><a href="https://github.com/VBVR-DataFactory/G-19_sort_objects_by_rule_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-19_sort_objects_by_rule_data-generator/main/samples/G-19_video_0.gif" width="160"/></a></td>
-<td align="center"><b>Transformation</b><br/>Combined Objects Spinning<br/><a href="https://github.com/VBVR-DataFactory/G-40_combined_objects_spinning_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-40_combined_objects_spinning_data-generator/main/samples/G-40_video_0.gif" width="160"/></a></td>
-<td align="center"><b>Spatiality</b><br/>Grid Shortest Path<br/><a href="https://github.com/VBVR-DataFactory/G-18_grid_shortest_path_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-18_grid_shortest_path_data-generator/main/samples/G-18_video_0.gif" width="160"/></a></td>
-<td align="center"><b>Abstraction</b><br/>Symmetry Random<br/><a href="https://github.com/VBVR-DataFactory/G-37_symmetry_random_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-37_symmetry_random_data-generator/main/samples/G-37_video_0.gif" width="160"/></a></td>
-<td align="center"><b>Knowledge</b><br/>Hit Target After Bounce<br/><a href="https://github.com/VBVR-DataFactory/G-35_hit_target_after_bounce_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-35_hit_target_after_bounce_data-generator/main/samples/G-35_video_0.gif" width="160"/></a></td>
+<td align="center"><b>Perception</b><br/><sub>Sort Objects By Rule</sub><br/><a href="https://github.com/VBVR-DataFactory/G-19_sort_objects_by_rule_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-19_sort_objects_by_rule_data-generator/main/samples/G-19_video_0.gif" width="160"/></a></td>
+<td align="center"><b>Transformation</b><br/><sub>Combined Objects Spinning</sub><br/><a href="https://github.com/VBVR-DataFactory/G-40_combined_objects_spinning_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-40_combined_objects_spinning_data-generator/main/samples/G-40_video_0.gif" width="160"/></a></td>
+<td align="center"><b>Spatiality</b><br/><sub>Grid Shortest Path</sub><br/><a href="https://github.com/VBVR-DataFactory/G-18_grid_shortest_path_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-18_grid_shortest_path_data-generator/main/samples/G-18_video_0.gif" width="160"/></a></td>
+<td align="center"><b>Abstraction</b><br/><sub>Symmetry Random</sub><br/><a href="https://github.com/VBVR-DataFactory/G-37_symmetry_random_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-37_symmetry_random_data-generator/main/samples/G-37_video_0.gif" width="160"/></a></td>
+<td align="center"><b>Knowledge</b><br/><sub>Hit Target After Bounce</sub><br/><a href="https://github.com/VBVR-DataFactory/G-35_hit_target_after_bounce_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/G-35_hit_target_after_bounce_data-generator/main/samples/G-35_video_0.gif" width="160"/></a></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td align="center"><a href="https://github.com/VBVR-DataFactory/O-39_maze_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-39_maze_data-generator/main/samples/O-39_video_0.gif" width="160"/></a><br/>Maze</td>
-<td align="center"><a href="https://github.com/VBVR-DataFactory/O-19_mirror_reflection_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-19_mirror_reflection_data-generator/main/samples/O-19_video_0.gif" width="160"/></a><br/>Mirror Reflection</td>
-<td align="center"><a href="https://github.com/VBVR-DataFactory/O-56_raven_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-56_raven_data-generator/main/samples/O-56_video_0.gif" width="160"/></a><br/>Raven&rsquo;s Matrices</td>
-<td align="center"><a href="https://github.com/VBVR-DataFactory/O-47_sliding_puzzle_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-47_sliding_puzzle_data-generator/main/samples/O-47_video_0.gif" width="160"/></a><br/>Sliding Puzzle</td>
-<td align="center"><a href="https://github.com/VBVR-DataFactory/O-53_clock_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-53_clock_data-generator/main/samples/O-53_video_0.gif" width="160"/></a><br/>Clock</td>
+<td align="center"><a href="https://github.com/VBVR-DataFactory/O-39_maze_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-39_maze_data-generator/main/samples/O-39_video_0.gif" width="160"/></a><br/><sub>Maze</sub></td>
+<td align="center"><a href="https://github.com/VBVR-DataFactory/O-19_mirror_reflection_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-19_mirror_reflection_data-generator/main/samples/O-19_video_0.gif" width="160"/></a><br/><sub>Mirror Reflection</sub></td>
+<td align="center"><a href="https://github.com/VBVR-DataFactory/O-56_raven_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-56_raven_data-generator/main/samples/O-56_video_0.gif" width="160"/></a><br/><sub>Raven&rsquo;s Matrices</sub></td>
+<td align="center"><a href="https://github.com/VBVR-DataFactory/O-47_sliding_puzzle_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-47_sliding_puzzle_data-generator/main/samples/O-47_video_0.gif" width="160"/></a><br/><sub>Sliding Puzzle</sub></td>
+<td align="center"><a href="https://github.com/VBVR-DataFactory/O-53_clock_data-generator"><img src="https://raw.githubusercontent.com/VBVR-DataFactory/O-53_clock_data-generator/main/samples/O-53_video_0.gif" width="160"/></a><br/><sub>Clock</sub></td>
 </tr>
 </table>
 
----
+<br/>
 
 ## How It Works
 
 Every generator follows a standard interface:
 
 ```
-Generator(seed, params)  ->  first_frame.png, prompt.txt, final_frame.png, ground_truth.mp4
+Generator(seed, params)  →  first_frame.png, prompt.txt, final_frame.png, ground_truth.mp4
 ```
 
 > **Get started** &mdash; Build your own with [`template-data-generator`](https://github.com/VBVR-DataFactory/template-data-generator) or convert existing datasets with [`template-data-pipeline`](https://github.com/VBVR-DataFactory/template-data-pipeline).
 
----
+<br/>
 
 ## Task Catalog
 
@@ -274,7 +293,7 @@ Representation of places and geometric relationships.
 
 </details>
 
----
+<br/>
 
 ## Contributing
 
@@ -285,23 +304,31 @@ Representation of places and geometric relationships.
 | 3 | **Implement** a parameterized generator that produces `first_frame.png`, `prompt.txt`, `final_frame.png`, and `ground_truth.mp4` |
 | 4 | **Submit** for review against six quality criteria: information sufficiency, deterministic solvability, video dependency, visual clarity, parametric diversity (10,000+ instances), and technical feasibility |
 
----
+<br/>
 
 ## Community
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/Website-video--reason.com-000000?style=for-the-badge)](https://video-reason.com/)
-&nbsp;
-[![Slack](https://img.shields.io/badge/Slack-Join_Us-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ)
-&nbsp;
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Video--Reason-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/Video-Reason)
-&nbsp;
-[![Email](https://img.shields.io/badge/Contact-hokinxqdeng@gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hokinxqdeng@gmail.com)
+<a href="https://video-reason.com/">
+  <img src="https://img.shields.io/badge/Website-video--reason.com-000000?style=flat-square" alt="Website"/>
+</a>
+&ensp;
+<a href="https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ">
+  <img src="https://img.shields.io/badge/Slack-Join%20Us-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack"/>
+</a>
+&ensp;
+<a href="https://huggingface.co/Video-Reason">
+  <img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Video--Reason-FFD21E?style=flat-square" alt="HuggingFace"/>
+</a>
+&ensp;
+<a href="mailto:hokinxqdeng@gmail.com">
+  <img src="https://img.shields.io/badge/Contact-hokinxqdeng@gmail.com-0078D4?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+</a>
 
 </div>
 
----
+<br/>
 
 <details>
 <summary><b>Citation</b></summary>
