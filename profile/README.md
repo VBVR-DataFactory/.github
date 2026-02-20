@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://video-reason.com/">
-    <img src="logo.png" height="100" alt="VBVR"/>
+    <img src="https://video-reason.com/static/images/VBVR_logo.png" height="100" alt="VBVR"/>
   </a>
   <br/>
   <h3>VBVR-DataFactory</h3>
