@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://video-reason.com/">
-    <img src="https://video-reason.com/static/images/VBVR_logo.png" height="60" alt="VBVR"/>
+    <img src="logo.png" height="80" alt="VBVR"/>
   </a>
   <br/><br/>
   <strong>VBVR-DataFactory</strong> &mdash; Open-Source Synthetic Data Generators for Video Reasoning
