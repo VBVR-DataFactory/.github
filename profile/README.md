@@ -1,21 +1,33 @@
 <div align="center">
   <a href="https://video-reason.com/">
-    <img src="logo.png" height="80" alt="VBVR"/>
+    <img src="logo.png" height="100" alt="VBVR"/>
   </a>
-  <br/><br/>
-  <strong>VBVR-DataFactory</strong> &mdash; Open-Source Synthetic Data Generators for Video Reasoning
-  <br/><br/>
-  <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Website-video--reason.com-000000?style=flat-square" alt="Website"/></a>
-  <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Paper-VBVR-b31b1b?style=flat-square" alt="Paper"/></a>
-  <a href="https://huggingface.co/Video-Reason"><img src="https://img.shields.io/badge/HuggingFace-Video--Reason-FFD21E?style=flat-square&logo=huggingface&logoColor=000" alt="HuggingFace"/></a>
-  <a href="https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ"><img src="https://img.shields.io/badge/Slack-Community-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack"/></a>
+  <br/>
+  <h3>VBVR-DataFactory</h3>
+  <p><em>Open-Source Synthetic Data Generators for Video Reasoning</em></p>
+  <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Website-video--reason.com-000000?style=for-the-badge" alt="Website"/></a>
+  &nbsp;
+  <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Paper-VBVR-b31b1b?style=for-the-badge" alt="Paper"/></a>
+  &nbsp;
+  <a href="https://huggingface.co/Video-Reason"><img src="https://img.shields.io/badge/HuggingFace-Video--Reason-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000" alt="HuggingFace"/></a>
+  &nbsp;
+  <a href="https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ"><img src="https://img.shields.io/badge/Slack-Join_Us-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack"/></a>
+</div>
+
+<br/>
+
+<div align="center">
+
+This organization is a **synthetic data pump** for video reasoning.
+It hosts the parameterized generators behind [**VBVR** (Very Big Video Reasoning)](https://video-reason.com/) &mdash; each one capable of producing **unlimited** training data on demand.
+
+*Every repository is a self-contained task generator: give it a seed and parameters, and it deterministically produces (first frame, prompt, final frame, ground-truth video) tuples. There is no fixed dataset size &mdash; every generator can mint fresh, unique samples indefinitely.*
+
+**Need 10K examples? 10M? Just run the generator longer.**
+
 </div>
 
 ---
-
-This organization is a **synthetic data pump** for video reasoning. It hosts the parameterized generators behind [VBVR (Very Big Video Reasoning)](https://video-reason.com/) &mdash; each one capable of producing **unlimited** training data on demand.
-
-Every repository is a self-contained **task generator**: give it a seed and parameters, and it deterministically produces (first frame, prompt, final frame, ground-truth video) tuples. There is no fixed dataset size &mdash; every generator can mint fresh, unique samples indefinitely. Need 10K examples? 10M? Just run the generator longer.
 
 ### Sample Generations
 
@@ -49,7 +61,7 @@ Every generator follows a standard interface:
 Generator(seed, params)  ->  first_frame.png, prompt.txt, final_frame.png, ground_truth.mp4
 ```
 
-Start building your own with [`template-data-generator`](https://github.com/VBVR-DataFactory/template-data-generator) or convert existing datasets with [`template-data-pipeline`](https://github.com/VBVR-DataFactory/template-data-pipeline).
+> **Get started** &mdash; Build your own with [`template-data-generator`](https://github.com/VBVR-DataFactory/template-data-generator) or convert existing datasets with [`template-data-pipeline`](https://github.com/VBVR-DataFactory/template-data-pipeline).
 
 ---
 
@@ -271,23 +283,33 @@ Representation of places and geometric relationships.
 
 ## Contributing
 
-1. **Fork** [`template-data-generator`](https://github.com/VBVR-DataFactory/template-data-generator)
-2. **Design** your task targeting one of the five cognitive faculties
-3. **Implement** a parameterized generator that produces `first_frame.png`, `prompt.txt`, `final_frame.png`, and `ground_truth.mp4`
-4. **Submit** for review against six quality criteria: information sufficiency, deterministic solvability, video dependency, visual clarity, parametric diversity (10,000+ instances), and technical feasibility
+| Step | Action |
+|:--:|:--|
+| 1 | **Fork** [`template-data-generator`](https://github.com/VBVR-DataFactory/template-data-generator) |
+| 2 | **Design** your task targeting one of the five cognitive faculties |
+| 3 | **Implement** a parameterized generator that produces `first_frame.png`, `prompt.txt`, `final_frame.png`, and `ground_truth.mp4` |
+| 4 | **Submit** for review against six quality criteria: information sufficiency, deterministic solvability, video dependency, visual clarity, parametric diversity (10,000+ instances), and technical feasibility |
 
 ---
 
 ## Community
 
-- **Website**: [video-reason.com](https://video-reason.com/)
-- **Slack**: [Join our workspace](https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ)
-- **HuggingFace**: [VideoReason](https://huggingface.co/Video-Reason)
-- **Contact**: [hokinxqdeng@gmail.com](mailto:hokinxqdeng@gmail.com)
+<div align="center">
+
+[![Website](https://img.shields.io/badge/Website-video--reason.com-000000?style=for-the-badge)](https://video-reason.com/)
+&nbsp;
+[![Slack](https://img.shields.io/badge/Slack-Join_Us-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ)
+&nbsp;
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Video--Reason-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/Video-Reason)
+&nbsp;
+[![Email](https://img.shields.io/badge/Contact-hokinxqdeng@gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hokinxqdeng@gmail.com)
+
+</div>
 
 ---
 
-## Citation
+<details>
+<summary><b>Citation</b></summary>
 
 ```bibtex
 @article{vbvr2026,
@@ -297,7 +319,9 @@ Representation of places and geometric relationships.
 }
 ```
 
----
+</details>
+
+<br/>
 
 <div align="center">
   <sub>A collaborative effort by 50+ researchers from 30+ institutions worldwide &mdash; MIT License</sub>
