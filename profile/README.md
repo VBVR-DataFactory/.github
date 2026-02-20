@@ -3,7 +3,7 @@
     <img src="https://video-reason.com/static/images/VBVR_logo.png" height="60" alt="VBVR"/>
   </a>
   <br/><br/>
-  <strong>VBVR-DataFactory</strong> &mdash; 150 Open-Source Task Generators for Video Reasoning
+  <strong>VBVR-DataFactory</strong> &mdash; Open-Source Synthetic Data Generators for Video Reasoning
   <br/><br/>
   <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Website-video--reason.com-000000?style=flat-square" alt="Website"/></a>
   <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Paper-VBVR-b31b1b?style=flat-square" alt="Paper"/></a>
@@ -13,11 +13,11 @@
 
 ---
 
-This organization hosts the **parameterized data generators** that power [VBVR (Very Big Video Reasoning)](https://video-reason.com/) &mdash; a large-scale dataset and benchmark for studying reasoning in video generation models.
+This organization is a **synthetic data pump** for video reasoning. It hosts the parameterized generators behind [VBVR (Very Big Video Reasoning)](https://video-reason.com/) &mdash; each one capable of producing **unlimited** training data on demand.
 
-Each repository is a self-contained **task generator**: a deterministic program that produces (first frame, prompt, final frame, ground-truth video) tuples for a specific reasoning task. Together, they produce **2M+ images** and **1M+ video clips** across **200+ tasks**.
+Every repository is a self-contained **task generator**: give it a seed and parameters, and it deterministically produces (first frame, prompt, final frame, ground-truth video) tuples. There is no fixed dataset size &mdash; every generator can mint fresh, unique samples indefinitely. Need 10K examples? 10M? Just run the generator longer.
 
-### Sample Data
+### Sample Generations
 
 <table>
 <tr>
@@ -45,7 +45,7 @@ Each repository is a self-contained **task generator**: a deterministic program 
 
 | | | |
 |:--:|:--:|:--:|
-| **150** open-source generators | **5** cognitive categories | **50+** contributors |
+| **150** open-source generators | **5** cognitive categories | **Unlimited** generation capacity |
 
 | Type | Count | Description |
 |:--|:--:|:--|
