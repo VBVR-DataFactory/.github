@@ -7,7 +7,7 @@
   <br/><br/>
   <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Website-video--reason.com-000000?style=flat-square" alt="Website"/></a>
   <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Paper-VBVR-b31b1b?style=flat-square" alt="Paper"/></a>
-  <a href="https://huggingface.co/VideoReason"><img src="https://img.shields.io/badge/HuggingFace-VideoReason-FFD21E?style=flat-square&logo=huggingface&logoColor=000" alt="HuggingFace"/></a>
+  <a href="https://huggingface.co/Video-Reason"><img src="https://img.shields.io/badge/HuggingFace-VideoReason-FFD21E?style=flat-square&logo=huggingface&logoColor=000" alt="HuggingFace"/></a>
   <a href="https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ"><img src="https://img.shields.io/badge/Slack-Community-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack"/></a>
 </div>
 
@@ -382,7 +382,7 @@ Representation of places and geometric relationships.
 
 - **Website**: [video-reason.com](https://video-reason.com/)
 - **Slack**: [Join our workspace](https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ)
-- **HuggingFace**: [VideoReason](https://huggingface.co/VideoReason)
+- **HuggingFace**: [VideoReason](https://huggingface.co/Video-Reason)
 - **Contact**: [hokinxqdeng@gmail.com](mailto:hokinxqdeng@gmail.com)
 
 ---
