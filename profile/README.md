@@ -17,7 +17,7 @@ This organization hosts the **parameterized data generators** that power [VBVR (
 
 Each repository is a self-contained **task generator**: a deterministic program that produces (first frame, prompt, final frame, ground-truth video) tuples for a specific reasoning task. Together, they produce **2M+ images** and **1M+ video clips** across **200+ tasks**.
 
-### Sample Outputs
+### Sample Data
 
 <table>
 <tr>
