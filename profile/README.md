@@ -13,7 +13,7 @@
 
 ---
 
-This organization is a **synthetic data pump** for video reasoning. It hosts the parameterized generators behind [VBVR (Very Big Video Reasoning)](https://video-reason.com/) &mdash; each one capable of producing **unlimited** training data on demand.
+This organization is a **synthetic data spring** for video reasoning. It hosts the parameterized generators behind [VBVR (Very Big Video Reasoning)](https://video-reason.com/) &mdash; each one capable of producing **unlimited** training data on demand.
 
 Every repository is a self-contained **task generator**: give it a seed and parameters, and it deterministically produces (first frame, prompt, final frame, ground-truth video) tuples. There is no fixed dataset size &mdash; every generator can mint fresh, unique samples indefinitely. Need 10K examples? 10M? Just run the generator longer.
 
