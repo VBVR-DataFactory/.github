@@ -281,7 +281,7 @@ Representation of places and geometric relationships.
 ## Community
 
 - **Website**: [video-reason.com](https://video-reason.com/)
-- **Slack**: [Join our workspace](https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ)
+- **Slack**: [Join our workspace](https://join.slack.com/t/video-reason/shared_invite/zt-3qqf23icm-UC29fatWWYsIuzRNBR1lgg)
 - **HuggingFace**: [Video-Reason](https://huggingface.co/Video-Reason)
 - **Contact**: [hokinxqdeng@gmail.com](mailto:hokinxqdeng@gmail.com)
 
