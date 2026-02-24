@@ -17,6 +17,8 @@ This organization is a **synthetic data spring** for video reasoning. It hosts t
 
 Every repository is a self-contained **task generator**: give it a seed and parameters, and it deterministically produces (first frame, prompt, final frame, ground-truth video) tuples. There is no fixed dataset size &mdash; every generator can mint fresh, unique samples indefinitely. Need 10K examples? 10M? Just run the generator longer.
 
+For all non-generator codebase, checkout https://github.com/Video-Reason
+
 ### Sample Generations
 
 <table>
