@@ -3,7 +3,7 @@
     <img src="https://video-reason.com/static/images/VBVR_logo.png" height="120" alt="VBVR"/>
   </a>
   <br/><br/>
-  <strong>VBVR-DataFactory</strong> &mdash; Open-Source Synthetic Data Generators for Video Reasoning
+  <h3>VBVR-DataFactory &mdash; Open-Source Synthetic Data Generators for Video Reasoning</h3>
   <br/><br/>
   <a href="https://video-reason.com/"><img src="https://img.shields.io/badge/Website-video--reason.com-000000?style=flat-square" alt="Website"/></a>
   <a href="https://arxiv.org/abs/2602.20159v1"><img src="https://img.shields.io/badge/Paper-VBVR-b31b1b?style=flat-square" alt="Paper"/></a>
