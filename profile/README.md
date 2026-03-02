@@ -9,6 +9,10 @@
   <a href="https://arxiv.org/abs/2602.20159v1"><img src="https://img.shields.io/badge/Paper-VBVR-b31b1b?style=flat-square" alt="Paper"/></a>
   <a href="https://huggingface.co/Video-Reason"><img src="https://img.shields.io/badge/HuggingFace-Video--Reason-FFD21E?style=flat-square&logo=huggingface&logoColor=000" alt="HuggingFace"/></a>
   <a href="https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ"><img src="https://img.shields.io/badge/Slack-Community-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack"/></a>
+  <br/><br/>
+  <a href="https://huggingface.co/papers/month/2026-02">
+    <img src="assets/paper_of_month.svg" alt="#1 Paper of the Month · Feb 2026"/>
+  </a>
 </div>
 
 ---
