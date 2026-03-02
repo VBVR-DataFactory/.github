@@ -11,7 +11,7 @@
   <a href="https://join.slack.com/t/vm-dataset/shared_invite/zt-3mdb2lkye-lm7ZC4OGxxRRMEi1M65hKQ"><img src="https://img.shields.io/badge/Slack-Community-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack"/></a>
   <br/><br/>
   <a href="https://huggingface.co/papers/month/2026-02">
-    <img src="https://raw.githubusercontent.com/VBVR-DataFactory/.github/main/assets/paper_of_month.svg" width="520" alt="#1 Paper of the Month · Feb 2026"/>
+    <img src="https://raw.githubusercontent.com/VBVR-DataFactory/.github/main/assets/paper_of_month.svg" width="420" alt="#1 Paper of the Month · Feb 2026"/>
   </a>
 </div>
 
